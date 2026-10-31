@@ -1,0 +1,17 @@
+{
+  "count": 8,
+  "seed": 77,
+  "id_offset": 0,
+  "scenario_sha256": "f9113ccca546d7a6d205a3c5692ab2eb7d69c8c09ed9d1716835724225c826d1",
+  "distribution": {
+    "following": 1,
+    "sudden_braking": 1,
+    "stop_go": 1,
+    "delayed_obstacle": 1,
+    "pedestrian": 1,
+    "occluded_pedestrian": 1,
+    "lane_change": 1,
+    "unsafe_merge": 1
+  },
+  "generator": "numpy.default_rng; uniform parameter draws; equal stratum allocation"
+}

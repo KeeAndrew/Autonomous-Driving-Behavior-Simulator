@@ -1,0 +1,317 @@
+{
+  "provenance": {
+    "scenarios_sha256": "002a717276d4f70a1abf09b5a52c41fb576533f4dc6fce9407b44dec4c6ae8d7",
+    "paired_sha256": "0e2d4df2cd5ed723e1546db9ab8d7ee337fb74ca185e2917bd672bb60f532e52",
+    "reason": "Actual validation divergences; top 2 by collision mismatch then command RMS per kind",
+    "cases": [
+      {
+        "id": 100102,
+        "kind": 6,
+        "collision_b": 1,
+        "collision_m": 0,
+        "command_rms": 5.777352844952809
+      },
+      {
+        "id": 100332,
+        "kind": 4,
+        "collision_b": 0,
+        "collision_m": 1,
+        "command_rms": 5.768550453886552
+      },
+      {
+        "id": 100031,
+        "kind": 7,
+        "collision_b": 1,
+        "collision_m": 0,
+        "command_rms": 4.9755868666331615
+      },
+      {
+        "id": 100217,
+        "kind": 1,
+        "collision_b": 1,
+        "collision_m": 0,
+        "command_rms": 4.93585168060546
+      },
+      {
+        "id": 100390,
+        "kind": 6,
+        "collision_b": 0,
+        "collision_m": 1,
+        "command_rms": 4.815295818526606
+      },
+      {
+        "id": 100090,
+        "kind": 2,
+        "collision_b": 1,
+        "collision_m": 0,
+        "command_rms": 4.730796568533027
+      },
+      {
+        "id": 100107,
+        "kind": 3,
+        "collision_b": 1,
+        "collision_m": 0,
+        "command_rms": 4.601493946368334
+      },
+      {
+        "id": 100385,
+        "kind": 1,
+        "collision_b": 0,
+        "collision_m": 1,
+        "command_rms": 4.488131357985995
+      },
+      {
+        "id": 100349,
+        "kind": 5,
+        "collision_b": 1,
+        "collision_m": 0,
+        "command_rms": 4.440689747295928
+      },
+      {
+        "id": 100099,
+        "kind": 3,
+        "collision_b": 1,
+        "collision_m": 0,
+        "command_rms": 4.318398321088757
+      },
+      {
+        "id": 100104,
+        "kind": 0,
+        "collision_b": 1,
+        "collision_m": 0,
+        "command_rms": 4.195346631320305
+      },
+      {
+        "id": 100144,
+        "kind": 0,
+        "collision_b": 0,
+        "collision_m": 1,
+        "command_rms": 4.128054056152237
+      },
+      {
+        "id": 100010,
+        "kind": 2,
+        "collision_b": 1,
+        "collision_m": 0,
+        "command_rms": 4.124266607970725
+      },
+      {
+        "id": 100133,
+        "kind": 5,
+        "collision_b": 1,
+        "collision_m": 0,
+        "command_rms": 3.818601302581442
+      },
+      {
+        "id": 100220,
+        "kind": 4,
+        "collision_b": 0,
+        "collision_m": 1,
+        "command_rms": 3.6710752789188272
+      },
+      {
+        "id": 100319,
+        "kind": 7,
+        "collision_b": 1,
+        "collision_m": 1,
+        "command_rms": 5.200269032195778
+      }
+    ]
+  },
+  "baseline": [
+    {
+      "id": 100010,
+      "collision": 1,
+      "hard_brakes": 1,
+      "distance": 139.07537884702694
+    },
+    {
+      "id": 100031,
+      "collision": 1,
+      "hard_brakes": 1,
+      "distance": 111.31215847970743
+    },
+    {
+      "id": 100090,
+      "collision": 1,
+      "hard_brakes": 1,
+      "distance": 119.32100706199702
+    },
+    {
+      "id": 100099,
+      "collision": 1,
+      "hard_brakes": 1,
+      "distance": 100.46089094271028
+    },
+    {
+      "id": 100102,
+      "collision": 1,
+      "hard_brakes": 1,
+      "distance": 103.465481699714
+    },
+    {
+      "id": 100104,
+      "collision": 1,
+      "hard_brakes": 1,
+      "distance": 111.45770460009268
+    },
+    {
+      "id": 100107,
+      "collision": 1,
+      "hard_brakes": 1,
+      "distance": 82.23461242431034
+    },
+    {
+      "id": 100133,
+      "collision": 1,
+      "hard_brakes": 1,
+      "distance": 46.2422625252849
+    },
+    {
+      "id": 100144,
+      "collision": 0,
+      "hard_brakes": 1,
+      "distance": 201.2358873551247
+    },
+    {
+      "id": 100217,
+      "collision": 1,
+      "hard_brakes": 1,
+      "distance": 96.39171512746655
+    },
+    {
+      "id": 100220,
+      "collision": 0,
+      "hard_brakes": 1,
+      "distance": 201.31708675649156
+    },
+    {
+      "id": 100319,
+      "collision": 1,
+      "hard_brakes": 1,
+      "distance": 64.89750798545091
+    },
+    {
+      "id": 100332,
+      "collision": 0,
+      "hard_brakes": 1,
+      "distance": 200.8400859793496
+    },
+    {
+      "id": 100349,
+      "collision": 1,
+      "hard_brakes": 1,
+      "distance": 27.365040695614944
+    },
+    {
+      "id": 100385,
+      "collision": 0,
+      "hard_brakes": 1,
+      "distance": 201.05923549307732
+    },
+    {
+      "id": 100390,
+      "collision": 0,
+      "hard_brakes": 1,
+      "distance": 200.28216575680543
+    }
+  ],
+  "hybrid": [
+    {
+      "id": 100010,
+      "collision": 0,
+      "hard_brakes": 1,
+      "distance": 200.25555740839985
+    },
+    {
+      "id": 100031,
+      "collision": 0,
+      "hard_brakes": 1,
+      "distance": 200.9005083670129
+    },
+    {
+      "id": 100090,
+      "collision": 0,
+      "hard_brakes": 1,
+      "distance": 200.5008029411281
+    },
+    {
+      "id": 100099,
+      "collision": 0,
+      "hard_brakes": 1,
+      "distance": 200.65471724840677
+    },
+    {
+      "id": 100102,
+      "collision": 0,
+      "hard_brakes": 1,
+      "distance": 201.15346265011135
+    },
+    {
+      "id": 100104,
+      "collision": 0,
+      "hard_brakes": 1,
+      "distance": 200.37717188513307
+    },
+    {
+      "id": 100107,
+      "collision": 0,
+      "hard_brakes": 2,
+      "distance": 76.7800189545367
+    },
+    {
+      "id": 100133,
+      "collision": 0,
+      "hard_brakes": 2,
+      "distance": 121.58865056950718
+    },
+    {
+      "id": 100144,
+      "collision": 0,
+      "hard_brakes": 0,
+      "distance": 200.88819242128633
+    },
+    {
+      "id": 100217,
+      "collision": 0,
+      "hard_brakes": 0,
+      "distance": 200.0073812372402
+    },
+    {
+      "id": 100220,
+      "collision": 0,
+      "hard_brakes": 1,
+      "distance": 146.8254824958555
+    },
+    {
+      "id": 100319,
+      "collision": 1,
+      "hard_brakes": 1,
+      "distance": 35.39491026319629
+    },
+    {
+      "id": 100332,
+      "collision": 0,
+      "hard_brakes": 1,
+      "distance": 201.28069056632287
+    },
+    {
+      "id": 100349,
+      "collision": 1,
+      "hard_brakes": 1,
+      "distance": 24.176073863827384
+    },
+    {
+      "id": 100385,
+      "collision": 0,
+      "hard_brakes": 1,
+      "distance": 193.62434055881903
+    },
+    {
+      "id": 100390,
+      "collision": 1,
+      "hard_brakes": 1,
+      "distance": 68.6431685671839
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+.venv/
+build/
+build-*/
+.tools/
+__pycache__/
+.pytest_cache/
+*.pyc
+data/generated/
+results/*
+!results/.gitkeep
+models/*
+!models/.gitkeep
+*.user
+*.pdb
+*.obj
+*.exe

@@ -1,0 +1,19 @@
+{
+  "version": 5,
+  "cmakeMinimumRequired": {"major":3,"minor":24,"patch":0},
+  "configurePresets": [
+    {"name":"vs2022-arm64","displayName":"VS 2022 ARM64","generator":"Visual Studio 17 2022","architecture":"ARM64","binaryDir":"${sourceDir}/build","cacheVariables":{"BUILD_TESTING":"ON"}},
+    {"name":"vs2022-x64","inherits":"vs2022-arm64","architecture":"x64","binaryDir":"${sourceDir}/build-x64"},
+    {"name":"vs2026-arm64","inherits":"vs2022-arm64","generator":"Visual Studio 18 2026","binaryDir":"${sourceDir}/build-vs2026"}
+  ],
+  "buildPresets":[
+    {"name":"release","configurePreset":"vs2022-arm64","configuration":"Release"},
+    {"name":"release-x64","configurePreset":"vs2022-x64","configuration":"Release"},
+    {"name":"release-vs2026","configurePreset":"vs2026-arm64","configuration":"Release"}
+  ],
+  "testPresets":[
+    {"name":"release","configurePreset":"vs2022-arm64","configuration":"Release","output":{"outputOnFailure":true}},
+    {"name":"release-x64","configurePreset":"vs2022-x64","configuration":"Release","output":{"outputOnFailure":true}},
+    {"name":"release-vs2026","configurePreset":"vs2026-arm64","configuration":"Release","output":{"outputOnFailure":true}}
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "generator_seeds": {"train":1001,"validation":2001,"evaluation":3001},
+  "scenario_counts_full": {"train":1200,"validation":400,"evaluation":10000},
+  "scenario_counts_smoke": {"train":120,"validation":40,"evaluation":160},
+  "feature_contract": "DRIVING_FOREST 1, 12 physical-unit features, capped TTC",
+  "note": "Experiment manifest documenting pipeline defaults. CLI arguments control individual workflows."
+}
