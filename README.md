@@ -2,7 +2,7 @@
 
 This is a personal project where I'm exploring how different driving controllers handle the same situations. The goal is to get more hands-on experience with C++, machine learning, and the testing involved in autonomous driving software.
 
-The simulator uses a simple 2D road with vehicles, pedestrians, and obstacles. It runs scenarios like following a slower car, reacting to sudden braking, stopping for a pedestrian, and deciding whether there's enough room to change lanes. I compare three controllers to see how their decisions affect collisions, braking, comfort, and progress.
+This simulator uses a simple 2D road with vehicles, pedestrians, and obstacles. It runs scenarios like following a slower car, reacting to sudden braking, stopping for a pedestrian, and deciding whether there's enough room to change lanes. I compare three controllers to see how their decisions affect collisions, braking, comfort, and progress. 
 
 ## How it works
 
